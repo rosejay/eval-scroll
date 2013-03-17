@@ -280,13 +280,20 @@
 	var message = new Msg( Math.floor(Math.random()*1000000), "Ye Lin", 45, 2 );
 
 
-		
-
+		/*
+	getSettingNum();
 	
 
-	
+	function getSettingNum(){
+
+		var url = document.URL;
 
 
+
+		var q = url.queryKey['level'];
+		console.log(q);
+	}
+*/
 
 
 	// set up
@@ -319,6 +326,10 @@
 	});
 
 
+	$(".restart").click(function(){
+
+		document.location.reload(true);
+	})
 
 
 
